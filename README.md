@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project provides a **step-by-step guide** to building a **end-to-end data engineering pipeline** using **TCP/IP Socket, Apache Spark, OpenAI LLM, Kafka, and Elasticsearch**. It walks through every stage, starting from **data acquisition and processing**, applying **real-time sentiment analysis using ChatGPT**, and finally **publishing the results to Kafka** while **integrating Elasticsearch for indexing and querying**.
+This project provides a **step-by-step guide** to building an **end-to-end data engineering pipeline** using **TCP/IP Socket, Apache Spark, OpenAI LLM, Kafka, and Elasticsearch**. It walks through every stage, starting from **data acquisition and processing**, applying **real-time sentiment analysis using ChatGPT**, and finally **publishing the results to Kafka** while **integrating Elasticsearch for indexing and querying**.
 
 ---
 
@@ -47,11 +47,11 @@ The project is designed with the following components:
 ```sh
 git clone https://github.com/VipinReddy97/RealTime-SocketStreaming-ApacheSpark.git
 ```
-###**2. Navigate to the Project Directory
+### **2. Navigate to the Project Directory
 ```sh
 cd RealTime-SocketStreaming-ApacheSpark
 ```
-###**3. Run Docker Compose to Spin Up the Spark Cluster
+### **3. Run Docker Compose to Spin Up the Spark Cluster
 ```sh
 docker-compose up
 ```
